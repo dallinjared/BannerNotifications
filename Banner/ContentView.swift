@@ -71,6 +71,7 @@ struct ContentView: View {
                             .frame(maxWidth: .infinity, alignment: .center)
                         }
                     }
+                    .navigationBarTitle("Error View")
                 }
 
             }
