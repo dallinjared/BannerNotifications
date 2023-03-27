@@ -14,6 +14,9 @@
 		EFE30D1E29CE79B7004DBA44 /* BannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE30D1D29CE79B7004DBA44 /* BannerTests.swift */; };
 		EFE30D2829CE79B7004DBA44 /* BannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE30D2729CE79B7004DBA44 /* BannerUITests.swift */; };
 		EFE30D2A29CE79B7004DBA44 /* BannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE30D2929CE79B7004DBA44 /* BannerUITestsLaunchTests.swift */; };
+		EFE30D3729CE79D6004DBA44 /* BannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE30D3629CE79D6004DBA44 /* BannerService.swift */; };
+		EFE30D3929CE7A37004DBA44 /* BannerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE30D3829CE7A37004DBA44 /* BannerType.swift */; };
+		EFE30D3B29CE7AF2004DBA44 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE30D3A29CE7AF2004DBA44 /* BannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		EFE30D2329CE79B7004DBA44 /* BannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE30D2729CE79B7004DBA44 /* BannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerUITests.swift; sourceTree = "<group>"; };
 		EFE30D2929CE79B7004DBA44 /* BannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFE30D3629CE79D6004DBA44 /* BannerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerService.swift; sourceTree = "<group>"; };
+		EFE30D3829CE7A37004DBA44 /* BannerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerType.swift; sourceTree = "<group>"; };
+		EFE30D3A29CE7AF2004DBA44 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				EFE30D0E29CE79B5004DBA44 /* ContentView.swift */,
 				EFE30D1029CE79B7004DBA44 /* Assets.xcassets */,
 				EFE30D1229CE79B7004DBA44 /* Preview Content */,
+				EFE30D3629CE79D6004DBA44 /* BannerService.swift */,
+				EFE30D3A29CE7AF2004DBA44 /* BannerView.swift */,
+				EFE30D3829CE7A37004DBA44 /* BannerType.swift */,
 			);
 			path = Banner;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE30D3B29CE7AF2004DBA44 /* BannerView.swift in Sources */,
+				EFE30D3729CE79D6004DBA44 /* BannerService.swift in Sources */,
 				EFE30D0F29CE79B5004DBA44 /* ContentView.swift in Sources */,
 				EFE30D0D29CE79B5004DBA44 /* BannerApp.swift in Sources */,
+				EFE30D3929CE7A37004DBA44 /* BannerType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

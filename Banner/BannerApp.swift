@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct BannerApp: App {
+    @StateObject var bannerService = BannerService()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack {
+                NavigationView{
+                    ContentView()
+                }
+                if let type = bannerService.bannerType {
+                    BannerView(banner: type)
+                }
+            }
+            .environmentObject(bannerService)
         }
     }
 }
